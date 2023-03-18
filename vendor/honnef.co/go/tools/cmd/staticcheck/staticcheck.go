@@ -2,7 +2,7 @@
 package main // import "honnef.co/go/tools/cmd/staticcheck"
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	"golang.org/x/tools/go/analysis"
