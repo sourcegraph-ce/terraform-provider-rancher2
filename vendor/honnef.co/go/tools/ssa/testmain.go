@@ -17,7 +17,7 @@ import (
 	"go/ast"
 	"go/parser"
 	"go/types"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"strings"
 	"text/template"
