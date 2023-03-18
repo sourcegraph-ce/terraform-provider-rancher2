@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math/rand"
 	"net/http"
 	"os"

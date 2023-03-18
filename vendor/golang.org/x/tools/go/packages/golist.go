@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"go/types"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"os/exec"
 	"path"

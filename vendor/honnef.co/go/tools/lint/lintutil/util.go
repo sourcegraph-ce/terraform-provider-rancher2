@@ -15,7 +15,7 @@ import (
 	"go/build"
 	"go/token"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"os/signal"
 	"regexp"

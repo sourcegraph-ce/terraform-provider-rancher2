@@ -14,7 +14,7 @@ import (
 	"go/scanner"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"os/exec"
 	"path/filepath"

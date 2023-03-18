@@ -77,7 +77,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	stdLog "log"
+	stdLog log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"os"
 	"path/filepath"
@@ -1032,7 +1032,7 @@ func (l *loggingT) flushAll() {
 	}
 }
 
-// CopyStandardLogTo arranges for messages written to the Go "log" package's
+// CopyStandardLogTo arranges for messages written to the Go log "github.com/sourcegraph-ce/logrus" package's
 // default logs to also appear in the Google logs for the named and lower
 // severities.  Subsequent changes to the standard log's default output location
 // or format may break this behavior.
