@@ -13,7 +13,7 @@ It has been updated to follow upstream changes in a few ways.
 import (
 	"fmt"
 	"go/build"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path"
 	"path/filepath"

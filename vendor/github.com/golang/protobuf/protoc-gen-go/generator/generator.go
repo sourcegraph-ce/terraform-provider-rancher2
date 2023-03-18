@@ -48,7 +48,7 @@ import (
 	"go/parser"
 	"go/printer"
 	"go/token"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path"
 	"sort"
